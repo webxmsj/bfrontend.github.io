@@ -2,6 +2,7 @@
 title: 常用meta
 ---
 
+<!--more-->
 
 ```html
 <!-- H5标准声明，使用 HTML5 doctype，不区分大小写 -->
