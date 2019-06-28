@@ -26,7 +26,7 @@ after_script:
   - cd ./public
   - git init
   - git add --all .
-  - git commit -m 'Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages'
+  - git commit -m "Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
   - git push --force --quiet "https://${TOKEN}@${REF}" master:gh-pages
 
 env:
