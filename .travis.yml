@@ -22,7 +22,7 @@ script:
   - hexo clean
   - hexo generate
 
-after_success:
+after_script:
   - cd ./public
   - git init
   - git add --all .
