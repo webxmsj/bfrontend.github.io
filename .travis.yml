@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - "10"
+cache: npm
+
+notifications:
+  email:
+    recipients:
+      - 17625492424@163.com # 设置通知邮件
+    on_success: change
+    on_failure: always
+
+branches:
+  only:
+    - master
+
+install:
+  - npm install -g hexo-cli
+script:
+  - hexo clean
+  - hexo generate
+
+after_success:
+  - cd ./public
+  - git init
+  - git add --all .
+  - git commit -m 'Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages'
+  - git push --force --quiet "https://${TOKEN}@${REF}" master:gh-pages
+
+env:
+  global:
+    - REF=github.com/webxmsj/blog.git
