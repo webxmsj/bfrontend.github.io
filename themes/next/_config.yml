@@ -599,6 +599,15 @@ calendar:
 # Comments and Widgets
 # See: https://theme-next.org/docs/third-party-services/comments-and-widgets
 # ---------------------------------------------------------------
+# gittalk
+gitalk:
+  enable: true
+  githubID: 'webxmsj'           # 例：vonsdite   注意必须小写
+  repo: 'bfrontend.github.io'                 # 例：vonsdite.github.io
+  ClientID: '09127ddd89db8e840fc0'           # 上文注册 OAuth Application后得到的值
+  ClientSecret: '0b68bde58f374b2b31b9f4d580bb0f424de1f274'  # 上文注册 OAuth Application后得到的值
+  adminUser: 'webxmsj'         # 指定可初始化评论账户, 例：vonsdite   注意必须小写
+  distractionFreeMode: true
 
 # Disqus
 disqus:
