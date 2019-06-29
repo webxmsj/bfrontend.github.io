@@ -31,4 +31,4 @@ after_script:
 
 env:
   global:
-    - REF=github.com/webxmsj/blog.git
+    - REF=github.com/webxmsj/bfrontend.github.io.git
