@@ -599,15 +599,6 @@ calendar:
 # Comments and Widgets
 # See: https://theme-next.org/docs/third-party-services/comments-and-widgets
 # ---------------------------------------------------------------
-# gittalk
-gitalk:
-  enable: true
-  githubID: 'webxmsj'           # 例：vonsdite   注意必须小写
-  repo: 'bfrontend.github.io'                 # 例：vonsdite.github.io
-  ClientID: '09127ddd89db8e840fc0'           # 上文注册 OAuth Application后得到的值
-  ClientSecret: '0b68bde58f374b2b31b9f4d580bb0f424de1f274'  # 上文注册 OAuth Application后得到的值
-  adminUser: 'webxmsj'         # 指定可初始化评论账户, 例：vonsdite   注意必须小写
-  distractionFreeMode: true
 
 # Disqus
 disqus:
@@ -676,18 +667,17 @@ gitment:
 # Gitalk
 # Demo: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: 'webxmsj' # Github repo owner
+  repo: 'bfrontend.github.io' # Repository name to store issues
+  client_id: '09127ddd89db8e840fc0' # Github Application Client ID
+  client_secret: '0b68bde58f374b2b31b9f4d580bb0f424de1f274' # Github Application Client Secret
+  admin_user: 'webxmsj' # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en, es-ES, fr, ru, zh-CN, zh-TW
-  language:
-
+  language: zh-CN
 
 # ---------------------------------------------------------------
 # Content Sharing Services
