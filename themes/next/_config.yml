@@ -49,7 +49,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -197,8 +197,8 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/webxmsj || github
+  E-Mail: mailto:17625492424@163.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -213,6 +213,8 @@ social_icons:
   enable: true
   icons_only: false
   transition: false
+  GitHub: github
+  E-Mail: email
 
 # Blog rolls
 links_icon: link
@@ -220,7 +222,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  #Title: http://example.com
+  bfrontend: https://bfrontend.com/
 
 # Sidebar Avatar
 avatar:
@@ -362,8 +364,9 @@ reward_settings:
   #comment: Donate comment here
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+  wechatpay: http://imgoss.bfrontend.com/2019-06-28-123045.png
+  alipay: http://imgoss.bfrontend.com/2019-06-28-122944.png
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -823,13 +826,24 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
   post_views: true
   post_views_icon: eye
+  site_uv: true
+  site_uv_header: 本站访客数
+  site_uv_footer: 人次
+  # 效果：本站总访问量12345次（一般不开启这个）
+  site_pv: false
+  site_pv_header: 本站总访问量
+  site_pv_footer: 次
+  # 效果：本文总阅读量12345次
+  page_pv: true
+  page_pv_header: 本文总阅读量
+  page_pv_footer: 次
 
 # Tencent analytics ID
 #tencent_analytics:
