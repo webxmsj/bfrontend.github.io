@@ -223,6 +223,7 @@ links_layout: block
 #links_layout: inline
 links:
   bfrontend: https://bfrontend.com/
+  知识图谱: https://knowledge.gitpage.bfrontend.com/
 
 # Sidebar Avatar
 avatar:
