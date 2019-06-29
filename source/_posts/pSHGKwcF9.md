@@ -4,7 +4,7 @@ date: 2019-06-01 18:20:09
 tags: [js,node]
 published: true
 hideInList: false
-feature: http://imgoss.bfrontend.com/2019-06-01-101923.png
+feature: https://imgoss.bfrontend.com/2019-06-01-101923.png
 ---
 node 中package.json 包结构描述文件
 
@@ -77,4 +77,4 @@ node 中package.json 包结构描述文件
 
 ```
 
-![code](http://imgoss.bfrontend.com/2019-06-01-101923.png)
+![code](https://imgoss.bfrontend.com/2019-06-01-101923.png)

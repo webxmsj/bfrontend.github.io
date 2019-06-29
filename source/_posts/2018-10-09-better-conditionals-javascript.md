@@ -4,7 +4,7 @@ date: 2018-10-09 20:57:38
 tags: [JavaScript]
 published: true
 hideInList: false
-feature: http://imgoss.bfrontend.com/2019-05-31-154914.jpg
+feature: https://imgoss.bfrontend.com/2019-05-31-154914.jpg
 ---
 
 [原文地址](https://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript)

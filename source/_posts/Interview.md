@@ -3,7 +3,7 @@ title: '2019面试用遇到的常见的面试题'
 tags: [小程序,js,技术,小程序,wxs,js]
 published: true
 hideInList: false
-feature: http://imgoss.bfrontend.com/2019-05-31-154022.jpg
+feature: https://imgoss.bfrontend.com/2019-05-31-154022.jpg
 ---
 1. Cookies、sessionStorage和localStorage的解释及区别
 2. 小程序登录时序图
@@ -253,7 +253,7 @@ cookie和session都是用来跟踪浏览器用户身份的会话方式。
 
   在保存数据时不允许重复保存相同的键名。保存后可以修改键值，但不允许修改键名(只能重新取键名，然后再保存键值)。
 
-### 2. 小程序登录时序图![image-20190514190536056](http://imgoss.bfrontend.com/2019-05-14-110536.png)
+### 2. 小程序登录时序图![image-20190514190536056](https://imgoss.bfrontend.com/2019-05-14-110536.png)
 
 > 简单说明： 
 
@@ -332,7 +332,7 @@ Ajax(Asynchronous Javascript and XML) 是一种交互式动态web应用开发技
 1. 对象有属性`__proto__`， 指向该对象的构造函数的原型对象
 2. 方法除了有属性`__proto__`，还有属性`prototype`，`prototype`指向该方法的原型对象
 
-![image-20190515083740389](http://imgoss.bfrontend.com/2019-05-15-003740.png)
+![image-20190515083740389](https://imgoss.bfrontend.com/2019-05-15-003740.png)
 
 创建对象的两种方式Object.create和new 
 
