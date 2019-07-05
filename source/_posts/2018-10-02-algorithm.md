@@ -1,9 +1,11 @@
 ---
 title: '算法相关'
 date: 2018-10-02 20:57:38
-tags: [技术]
+tags: 
+  - 算法
+categories:
+  - 算法
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-155328.gif
 ---
 

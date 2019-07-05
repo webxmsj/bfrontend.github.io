@@ -1,9 +1,12 @@
 ---
 title: 'node中包结构描述文件(package.json)'
 date: 2019-06-01 18:20:09
-tags: [js,node]
+tags: 
+  - npm
+  - webpack
+categories:
+  - npm
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-06-01-101923.png
 ---
 node 中package.json 包结构描述文件

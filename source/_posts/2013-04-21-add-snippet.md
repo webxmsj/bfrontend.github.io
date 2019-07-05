@@ -1,9 +1,11 @@
 ---
 title: 给sublime增加snippet
 date: 2013-04-21 20:57:38
-tags: [Sublime]
+tags: 
+  - Sublime
+categories:
+  - sublime
 published: true
-hideInList: false
 feature: 
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: SVN 常用资源
 date: 2014-01-15 20:57:38
-tags: [SVN]
+tags: 
+  - SVN
+categories:
+  - SVN
 published: true
-hideInList: false
 feature: 
 ---
 

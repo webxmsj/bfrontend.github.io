@@ -1,9 +1,11 @@
 ---
 title: 'display 与 visibility 的恩怨情仇'
 date: 2018-10-06 20:57:38
-tags: [技术]
+tags: 
+  - css
+categories:
+  - CSS
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-155054.jpg
 ---
 

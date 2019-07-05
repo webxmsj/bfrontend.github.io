@@ -1,9 +1,11 @@
 ---
 title: Shell 常用资源
 date: 2014-01-15 20:57:38
-tags: [Shell]
+tags: 
+  - Shell
+categories:
+  - Shell
 published: false
-hideInList: false
 feature: 
 ---
 

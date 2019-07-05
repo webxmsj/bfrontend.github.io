@@ -1,9 +1,13 @@
 ---
 title: win7快速打开应用程序或文件
 date: 2013-02-25 20:57:38
-tags: [Windows]
+tags: 
+  - Windows
+  - shell
+  - cmd
+categories:
+  - cmd
 published: true
-hideInList: false
 feature: 
 ---
 

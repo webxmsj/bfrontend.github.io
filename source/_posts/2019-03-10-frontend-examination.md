@@ -1,9 +1,12 @@
 ---
 title: '前端代码审查清单'
 date: 2019-03-10 20:57:38
-tags: [frontend]
+tags: 
+  - frontend
+  - note
+categories:
+  - frontend
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-154435.jpg
 ---
 

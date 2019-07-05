@@ -1,9 +1,12 @@
 ---
 title: css水平垂直居中
 date: 2018-09-18 20:57:38
-tags: [css,center]
+tags: 
+  - css
+  - center
+categories:
+  - CSS
 published: true
-hideInList: false
 feature: 
 ---
 

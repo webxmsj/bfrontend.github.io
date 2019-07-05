@@ -1,8 +1,11 @@
 ---
 title: '2019面试用遇到的常见的面试题'
-tags: [小程序,js,技术,小程序,wxs,js]
+tags: 
+  - 小程序
+  - javascript
+categories:
+  - 面试
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-154022.jpg
 ---
 1. Cookies、sessionStorage和localStorage的解释及区别

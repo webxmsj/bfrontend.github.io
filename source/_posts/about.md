@@ -1,9 +1,9 @@
 ---
 title: Why Blog
 date: 2012-04-23 19:19:25
-tags: [Windows,Linux]
+tags: 
+  - about
 published: true
-hideInList: false
 feature: 
 ---
 

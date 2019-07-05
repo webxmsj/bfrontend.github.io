@@ -1,6 +1,10 @@
 ---
 title: 'flutter系列文章-001.flutter 初探'
+date: 2019-07-04 20:57:38
 tags:
+  - flutter
+  - dart
+categories:
   - flutter
   - dart
 ---

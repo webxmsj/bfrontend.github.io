@@ -1,9 +1,13 @@
 ---
 title: 从运行原理及使用场景看Apache和Nginx
-date: 2014-02-15 20:57:38
-tags: [Apache,Nginx]
+date: 2018-02-15 20:57:38
+tags: 
+  - Nginx
+  - Apache
+categories:
+  - Nginx
+  - Apache
 published: true
-hideInList: false
 feature: 
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: 了解GitHub工作流【译】
 date: 2014-01-30 20:57:38
-tags: [Git]
+tags: 
+  - Git
+categories:
+  - Git
 published: false
-hideInList: false
 feature: 
 ---
 

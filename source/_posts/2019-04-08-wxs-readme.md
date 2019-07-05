@@ -1,9 +1,12 @@
 ---
 title: '微信小程序wxs中可用的数据类型及方法'
 date: 2019-04-08 20:57:38
-tags: [小程序,wxs,js]
+tags: 
+  - 小程序
+  - wxs
+categories:
+  - 小程序
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-154300.jpg
 ---
 

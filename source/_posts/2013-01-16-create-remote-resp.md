@@ -1,10 +1,11 @@
 ---
 title: git创建远程库
 date: 2013-01-16 20:57:38
-tags: [Git]
+tags: 
+  - Git
+categories:
+  - git
 published: true
-hideInList: false
-feature: 
 ---
 
 # git创建远程库

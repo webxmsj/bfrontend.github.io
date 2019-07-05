@@ -1,9 +1,11 @@
 ---
 title: Mac 常用资源
 date: 2014-08-03 20:57:38
-tags: [Mac]
+tags: 
+  - Mac
+categories:
+  - Mac
 published: true
-hideInList: false
 feature: 
 ---
 

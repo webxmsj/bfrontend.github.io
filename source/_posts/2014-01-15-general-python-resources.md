@@ -1,9 +1,11 @@
 ---
 title: Python 常用资源
 date: 2014-01-15 20:57:38
-tags: [Python]
+tags: 
+  - Python
+categories:
+  - Python
 published: true
-hideInList: false
 feature: 
 ---
 

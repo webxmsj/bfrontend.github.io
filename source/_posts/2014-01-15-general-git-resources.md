@@ -1,9 +1,11 @@
 ---
 title: Git 常用资源
 date: 2014-01-15 20:57:38
-tags: [Git]
+tags: 
+  - Git
+categories:
+  - git
 published: true
-hideInList: false
 feature: 
 ---
 

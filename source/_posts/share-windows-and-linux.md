@@ -1,9 +1,12 @@
 ---
 title: Windows和Linux切换最终解决方案
 date: 2012-12-30 19:19:25
-tags: [Windows,Linux]
+tags: 
+  - Windows
+  - Linux
+categories:
+  - system
 published: true
-hideInList: false
 feature: 
 ---
 

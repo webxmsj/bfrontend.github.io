@@ -1,9 +1,11 @@
 ---
 title: jQuery 常用资源
 date: 2014-01-15 20:57:38
-tags: [jQuery]
+tags: 
+  - jQuery
+categories:
+  - jQuery
 published: true
-hideInList: false
 feature: 
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: '小技巧写出更好的javascript条件语句'
 date: 2018-10-09 20:57:38
-tags: [JavaScript]
+tags: 
+  - javascript
+categories:
+  - javascript
 published: true
-hideInList: false
 feature: https://imgoss.bfrontend.com/2019-05-31-154914.jpg
 ---
 

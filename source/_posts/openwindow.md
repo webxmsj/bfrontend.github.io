@@ -1,9 +1,11 @@
 ---
 title: JS中防止浏览器屏蔽window.open
-date: 2012-09-27 19:19:25
-tags: [JavaScript]
+date: 2015-09-27 19:19:25
+tags: 
+  - javascript
+categories:
+  - javascript
 published: true
-hideInList: false
 feature: 
 ---
 

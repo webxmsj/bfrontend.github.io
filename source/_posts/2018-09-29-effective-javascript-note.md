@@ -1,9 +1,13 @@
 ---
 title: Effective javascript 读书笔记
 date: 2018-09-29 20:57:38
-tags: [阅读,学习,高阶函数]
+tags: 
+  - 高阶函数
+  - javascript
+  - note
+categories:
+  - javascript
 published: true
-hideInList: false
 feature: 
 ---
 
