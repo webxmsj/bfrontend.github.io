@@ -5,8 +5,7 @@ tags:
   - Nginx
   - Apache
 categories:
-  - Nginx
-  - Apache
+  - server
 published: true
 feature: 
 ---

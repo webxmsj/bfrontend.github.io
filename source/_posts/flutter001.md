@@ -6,7 +6,6 @@ tags:
   - dart
 categories:
   - flutter
-  - dart
 ---
 ## flutter 初探
 

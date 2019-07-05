@@ -6,7 +6,7 @@ tags:
   - shell
   - cmd
 categories:
-  - cmd
+  - shell
 published: true
 feature: 
 ---
