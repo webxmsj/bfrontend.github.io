@@ -1,0 +1,162 @@
+---
+title: clip-path001
+date: 2019-07-13 13:23:26
+tags:
+  - clip-path
+  - css
+categories:
+  - css
+feature:
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>clip-path001</title>
+  <style type="text/css">
+    .container-item{
+      display: flex;
+      border: 1px dashed #eee;
+      padding: 10px;
+    }
+    .item {
+      width: 260px;
+      background: #00b6ff;
+      padding: 1em;
+      border-radius: 10px;
+      margin: 5px;
+    }
+
+    .item h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    .item p {
+      color: #fff;
+      font-size: 0.8em;
+    }
+
+    .item a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .item a:hover {
+      text-decoration: underline;
+    }
+    .item1 {
+      clip-path: circle(13% at 0% 0%);
+      transition: clip-path .5s ease-in-out;
+    }
+    .item1:hover {
+      clip-path: circle(75%);
+    }
+    .item2 {
+      -webkit-clip-path: circle(8% at 90% 22%);
+              clip-path: circle(8% at 90% 22%);
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      cursor: pointer;
+    }
+
+    .item2:hover {
+      -webkit-clip-path: circle(75%);
+              clip-path: circle(75%);
+      background: #3eede7;
+    }
+
+    .item2 span {
+      float: right;
+      color: white;
+      -webkit-transition: color .5s;
+      transition: color .5s;
+      font-weight: bold;
+      position: relative;
+      height: 22%;
+      margin-right: 4%;
+    }
+
+    .item2:hover span {
+      color: rgba(255, 255, 255, 0);
+    }
+    .item3 {
+      clip-path: polygon(
+        20% 0%,
+        0% 20%,
+        30% 50%,
+        0% 80%,
+        20% 100%,
+        50% 70%,
+        80% 100%,
+        100% 80%,
+        70% 50%,
+        100% 20%,
+        80% 0%,
+        50% 30%
+      );
+      transition: clip-path .5s ease-in-out;
+    }
+    .item3:hover {
+      clip-path: polygon(
+        0% 0%,
+        0% 0%,
+        0% 50%,
+        0% 100%,
+        0% 100%,
+        50% 100%,
+        100% 100%,
+        100% 100%,
+        100% 50%,
+        100% 0%,
+        100% 0%,
+        50% 0%
+      );
+    }
+  </style>
+</head>
+<body>
+  <div class="container-item">
+    <div class="item item1">
+      <h1>效果一</h1>
+      <p>i am bfrontend,this is my</p>
+      <a href="https://bfrontend.com">bfrontend</a>
+    </div>
+    <div class="item item2">
+      <span>i</span>
+      <h1>效果二</h1>
+      <p>i am bfrontend,this is my</p>
+      <a href="https://bfrontend.com">bfrontend</a>
+    </div>
+    <div class="item item3">
+      <h1>效果三</h1>
+      <p>i am bfrontend,this is my</p>
+      <a href="https://bfrontend.com">bfrontend</a>
+    </div>
+  </div>
+  <p>
+    <code>clip-path</code>css属性可以用来设置一个元素的裁切区域，区域内的部分显示，区域外的部分隐藏。
+  </p>
+  <ul>
+    <li>
+      语法：矩形裁切区域 clip-path: inset(2em 3em 2em 1em round 2em);
+    </li>
+    <li>
+      语法：圆形裁切区域 clip-path: circle(30% at 150px 120px);
+    </li>
+    <li>
+      语法：椭圆裁切区域 clip-path: ellipse(45% 30% at 50% 50%);
+    </li>
+    <li>
+      语法: 多边形裁切区域 clip-path: polygon(50% 0,100% 50%,0 100%);
+    </li>
+  </ul>
+  <p>一些基于clip-path 实现的较好的效果</p>
+  <ul>
+    <li>
+      <a href="https://luosijie.github.io/ani-clipath/">动物转换</a>
+    </li>
+  </ul>
+</body>
+</html>
