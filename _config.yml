@@ -86,3 +86,42 @@ search:
   field: post
   format: html
   limit: 10000
+
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      "name": "bfrontend"
+      "short_name": "bfrontend"
+      "theme_color": "#2196f3"
+      "background_color": "#2196f3"
+      "display": "standalone"
+      "orientation": "portrait"
+      "Scope": "/"
+      "start_url": "/"
+      icons:
+        - src: https://imgoss.bfrontend.com/2019-06-30-233119.jpg
+          sizes: 144x144
+          type: image/png
+        - src: https://imgoss.bfrontend.com/2019-06-30-233119.jpg
+          sizes: 128x128
+          type: image/png
+        - src: https://imgoss.bfrontend.com/2019-06-30-233119.jpg
+          sizes: 96x96
+          type: image/png
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+        - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+      - pattern: !!js/regexp /hm.baidu.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
