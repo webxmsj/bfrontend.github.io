@@ -23,5 +23,9 @@
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   {% endif %}
+
+  {% if theme.footer.beian.enable %}
+    {{ next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
+  {% endif %}
 </div>
 {% endif %}
