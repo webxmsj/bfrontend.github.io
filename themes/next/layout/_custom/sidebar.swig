@@ -1,1 +1,0 @@
-<a href='https://clustrmaps.com/site/1b0a1'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=lAYzejQWWqVj4LAk5lfqSI-nEMCqt5MumnxbCdYqP70'/></a>
